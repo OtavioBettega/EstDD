@@ -1,0 +1,32 @@
+lista1.1.cpp:
+
+(base) otaviobettega@Otavio-MacBook listas % g++ -o l1.1 lista1.1.cpp
+(base) otaviobettega@Otavio-MacBook listas % ./l1.1                  
+Usage: executable MASS(kg) HEIGHT(m)
+(base) otaviobettega@Otavio-MacBook listas % ./l1.1 60.3 1.78
+Peso normal
+(base) otaviobettega@Otavio-MacBook listas % ./l1.1 85.2 1.58
+Obesidade
+(base) otaviobettega@Otavio-MacBook listas % ./l1.1 1000 1.90
+Obesidade morbida
+(base) otaviobettega@Otavio-MacBook listas % ./l1.1 35 2.8   
+Muito abaixo do peso
+(base) otaviobettega@Otavio-MacBook listas % ./l1.1 aaaa lfabeto    
+
+lista1.2.cpp:
+
+(base) otaviobettega@Otavio-MacBook EstDD % g++ -o l1.2 lista1.2.cpp                 
+(base) otaviobettega@Otavio-MacBook EstDD % ./l1.2
+Usage: executable YEAR
+(base) otaviobettega@Otavio-MacBook EstDD % ./l1.2 2024
+Leap year!%                                                                                                                                                                          
+(base) otaviobettega@Otavio-MacBook EstDD % ./l1.2 2020
+Leap year!%                                                                                                                                                                          
+(base) otaviobettega@Otavio-MacBook EstDD % ./l1.2 2000
+Leap year!%                                                                                                                                                                          
+(base) otaviobettega@Otavio-MacBook EstDD % ./l1.2 0   
+Leap year!%                                                                                                                                                                          
+(base) otaviobettega@Otavio-MacBook EstDD % ./l1.2 1234
+Not leap year.%                                                                                                                                                                      
+(base) otaviobettega@Otavio-MacBook EstDD % ./l1.2 2001
+Not leap year.%
